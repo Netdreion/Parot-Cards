@@ -46,7 +46,7 @@ function App() {
                 <img src={card.img} alt="card" className="card-img" />
                 <div className="card-info">
                   <div className="card-details">
-                    <div>{card.animalName}</div>
+                    <div className="animal-name">{card.animalName}</div>
                     <div>{card.description}</div>
                   </div>
                 </div>

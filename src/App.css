@@ -1,8 +1,9 @@
 body {
   background-image: linear-gradient(to right, #ff9966, #ff5e62);
   margin: 0;
-  padding: 10;
+  padding: 10px;
 }
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -12,48 +13,50 @@ body {
 }
 
 .card {
-  width: 150px;
+  width: 130px;
   height: 250px;
   object-fit: cover;
   border-radius: 4px;
   margin: 5px;
   margin-top: 5px;
+  align-items: flex-start;
 }
 
 .card-img {
   width: 30%;
-  height: 40%;
+  height: 50%;
   object-fit: cover;
   border-radius: 4px;
-  margin-top: 30px;
 }
-.card-label {
-  display: block;
-  width: 100%;
-  height: 10px;
-  background-color: #000;
-}
+
 .card-label {
   font-weight: bold;
-  font-size: 30px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .card-details {
-  margin-top: 30px; /* Add the desired margin value */
+  margin-top: 10px;
 }
 
 .animal-name {
-  margin-top: 30px;
+  margin-top: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: antiquewhite;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .title-Parot {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 30px;
   margin-bottom: 10px;
   color: rgb(162, 19, 19);
-  justify-content: center;
+  text-align: center;
+}
+
+.animal-name {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: fantasy;
+  color: rgb(3, 3, 29);
 }

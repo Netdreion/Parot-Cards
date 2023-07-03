@@ -8,7 +8,7 @@ const CardsData = [
   },
   {
     id: 2,
-    img: "https://cdn.pixabay.com/photo/2017/02/07/11/45/eagle-2045655_1280.jpg ",
+    img: "https://cdn.pixabay.com/photo/2017/09/04/20/52/bald-eagle-2715461_1280.jpg",
     animalName: "Eagle",
     description:
       "The Eagle symbolizes vision, freedom, and transcendence. It soars above the clouds, offering a higher perspective. In your tarot reading, the Eagle card indicates that it's time to spread your wings and elevate your vision. Trust your instincts and aim for greatness. You have the ability to rise above any challenges and reach new heights.",
@@ -64,14 +64,14 @@ const CardsData = [
   },
   {
     id: 10,
-    img: "https://cdn.pixabay.com/photo/2016/11/20/11/49/fox-1842565_1280.jpg",
+    img: "https://cdn.pixabay.com/photo/2020/04/14/11/21/fox-5042242_1280.jpg",
     animalName: "Fox",
     description:
       "The Fox represents cunning, adaptability, and intelligence. With its ability to blend into its surroundings, it symbolizes being resourceful and quick-witted. In your tarot reading, the Fox card suggests using your wit and adaptability to navigate through challenges and seize opportunities. Trust your instincts and embrace your clever nature to overcome any obstacles.",
   },
   {
     id: 11,
-    img: "https://cdn.pixabay.com/photo/2018/06/03/01/30/horse-3449622_1280.jpg",
+    img: "https://cdn.pixabay.com/photo/2012/09/28/07/20/horse-58375_1280.jpg",
     animalName: "Horse",
     description:
       "The Horse represents freedom, power, and forward movement. Known for its grace and strength, it embodies the spirit of adventure and the pursuit of dreams. In your tarot reading, the Horse card encourages you to embrace your freedom and gallop towards your goals. Trust in your inner strength and allow your passions to guide you on your journey.",
@@ -82,6 +82,49 @@ const CardsData = [
     animalName: "Hummingbird",
     description:
       "The Hummingbird represents joy, adaptability, and resilience. With its ability to hover and move swiftly, it symbolizes embracing the present moment and finding joy in the little things. In your tarot reading, the Hummingbird card reminds you to savor the sweetness of life and adapt to changes with grace. Embrace the power of joy and let your spirit soar.",
+  },
+
+  {
+    id: 13,
+    img: "https://cdn.pixabay.com/photo/2019/12/05/12/32/penguin-4675025_1280.jpg",
+    animalName: "Penguin",
+    description:
+      "The Penguin represents adaptability, resilience, and community. With its ability to thrive in cold environments, it symbolizes the importance of adapting to change and working together. In your tarot reading, the Penguin card reminds you to embrace flexibility and rely on the support of your community. Together, you can overcome any challenges and achieve success.",
+  },
+  {
+    id: 14,
+    img: "https://cdn.pixabay.com/photo/2017/04/11/21/34/giraffe-2222908_1280.jpg",
+    animalName: "Giraffe",
+    description:
+      "The Giraffe represents grace, intuition, and foresight. With its long neck, it has a unique perspective and the ability to see things from a distance. In your tarot reading, the Giraffe card encourages you to trust your intuition and gain a higher perspective on situations. Embrace your ability to foresee future possibilities and make decisions with wisdom.",
+  },
+  {
+    id: 15,
+    img: "https://cdn.pixabay.com/photo/2021/08/24/07/57/kangaroo-6569883_1280.jpg",
+    animalName: "Kangaroo",
+    description:
+      "The Kangaroo represents balance, agility, and protection. With its ability to hop and move swiftly, it symbolizes adaptability and the need to maintain balance in life. In your tarot reading, the Kangaroo card reminds you to find harmony between work and play, and to protect your energy and boundaries. Stay agile and flexible as you navigate through life's challenges.",
+  },
+  {
+    id: 16,
+    img: "https://cdn.pixabay.com/photo/2016/01/20/13/05/cat-1151519_1280.jpg",
+    animalName: "Cat",
+    description:
+      "The Cat represents independence, curiosity, and intuition. With its mysterious nature, it symbolizes the need to explore and trust your instincts. In your tarot reading, the Cat card encourages you to embrace your independence and follow your curiosity. Listen to your intuition and be open to new experiences. Your feline energy will guide you towards self-discovery.",
+  },
+  {
+    id: 17,
+    img: "https://cdn.pixabay.com/photo/2013/02/10/00/20/humpback-79855_1280.jpg",
+    animalName: "Whale",
+    description:
+      "The Whale represents wisdom, communication, and emotional depth. Known for their strong sense of community and vast knowledge, they symbolize the importance of emotional intelligence and effective communication. In your tarot reading, the Whale card reminds you to dive deep into your emotions and express yourself authentically. Trust your intuition and use your wisdom to navigate through life's challenges.",
+  },
+  {
+    id: 18,
+    img: "https://cdn.pixabay.com/photo/2020/12/18/20/04/elephant-5841817_1280.jpg",
+    animalName: "Elephant",
+    description:
+      "The Elephant represents strength, wisdom, and family bonds. Known for their powerful presence and deep emotional connections, they symbolize nurturing and protection. In your tarot reading, the Elephant card signifies the importance of family and community.",
   },
 ];
 
