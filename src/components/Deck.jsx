@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "../App.css";
-import femaleProfile from "../images/femaleProfile.jpg";
 
 const Deck = ({ handleCardClick, data }) => {
   const url =
     "https://cdn.pixabay.com/photo/2018/08/12/16/59/parrot-3601194_1280.jpg";
+
   return (
     <div>
       <h1 className="title-Parot">Parot Cards</h1>
