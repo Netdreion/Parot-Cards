@@ -1,7 +1,11 @@
 body {
-  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   margin: 0;
-  padding: 5px;
+
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
 }
 
 .container {
@@ -60,4 +64,47 @@ body {
   font-weight: bold;
   font-family: fantasy;
   color: rgb(3, 3, 29);
+}
+
+.homepage-container {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: rgba(105, 122, 125, 0.883);
+  text-align: center;
+}
+
+.homepage-container header {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.homepage-container h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.homepage-container h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.homepage-container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.homepage-container button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #e91e63;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage-container button:hover {
+  background-color: #c2185b;
 }
