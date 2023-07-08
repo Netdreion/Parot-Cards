@@ -8,7 +8,6 @@ const WelcomePage = () => {
         Welcome to Parrot Tarot Cards, the best place to get a free Tarot
         reading!
       </p>
-      <button>click to start</button>
     </div>
   );
 };

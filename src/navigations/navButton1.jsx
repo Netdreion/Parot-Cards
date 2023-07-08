@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
 import RenderPage from "../RenderPage";
 
-export const homeNavButton = () => {
+export const HomeNavButton = () => {
   return (
     <button>
-      <Link to="./RendeRPage"></Link>
+      <Link to="/RendeRPage">CLICK</Link>
     </button>
   );
 };
