@@ -38,7 +38,7 @@ const RenderPage = () => {
       <Deck handleCardClick={handleCardClick} data={shuffledData} />
       <Card cards={cards} />
       <button onClick={newStart}>
-        {cards.length > 2 ? "Click To Start" : "New Reading"}
+        {cards.length > 2 ? "New Reading" : "Pick 3 card above"}
       </button>
     </div>
   );

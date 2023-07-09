@@ -12,7 +12,6 @@ const App = () => {
         <Route path="/" element={<WelcomePage />}></Route>
         <Route path="/RenderPage" element={<RenderPage />}></Route>
       </Routes>
-      <HomeNavButton />
     </>
   );
 };

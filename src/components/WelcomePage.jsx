@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router-dom";
+
 const WelcomePage = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="homepage-container">
       <header>Parrot Cards</header>
@@ -8,6 +12,7 @@ const WelcomePage = () => {
         Welcome to Parrot Tarot Cards, the best place to get a free Tarot
         reading!
       </p>
+      <button onClick={() => navigate("RenderPage")}>Start</button>
     </div>
   );
 };
