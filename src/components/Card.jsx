@@ -1,27 +1,48 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 const Card = ({ cards }) => {
+  const [currentCardIndex, setCurrentCardIndex] = useState(0);
+
+  const handleNextClick = () => {
+    if (currentCardIndex < cards.length - 1) {
+      setCurrentCardIndex(currentCardIndex + 1);
+    }
+  };
+
   return (
     <div>
       <div className="display-container">
-        {cards.map((card, index) => (
-          <ul key={index}>
+        {currentCardIndex < cards.length && (
+          <ul>
             <li>
               <div className="card-container">
                 <div className="card-label">
-                  {index === 0 ? "Past" : index === 1 ? "Present" : "Future"}
+                  {currentCardIndex === 0
+                    ? "Past"
+                    : currentCardIndex === 1
+                    ? "Present"
+                    : "Future"}
                 </div>
-                <img src={card.img} alt="card" className="card-img" />
+                <img
+                  src={cards[currentCardIndex].img}
+                  alt="card"
+                  className="card-img"
+                />
                 <div className="card-info">
                   <div className="card-details">
-                    <div className="animal-name">{card.animalName}</div>
-                    <div>{card.description}</div>
+                    <div className="animal-name">
+                      {cards[currentCardIndex].animalName}
+                    </div>
+                    <div>{cards[currentCardIndex].description}</div>
+                    {currentCardIndex < cards.length - 1 && (
+                      <button onClick={handleNextClick}>NEXT</button>
+                    )}
                   </div>
                 </div>
               </div>
             </li>
           </ul>
-        ))}
+        )}
       </div>
     </div>
   );

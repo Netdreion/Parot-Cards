@@ -23,6 +23,7 @@ const RenderPage = () => {
     }
 
     const newCards = [...cards, card];
+
     setCards(newCards);
   };
 
