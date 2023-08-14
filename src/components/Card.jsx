@@ -1,7 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const Card = ({ cards }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
+
+  useEffect(() => {
+    const storedIndex = Number(localStorage.getItem("currentCardIndex"));
+    if (!isNaN(storedIndex) && storedIndex >= 0 && storedIndex < cards.length) {
+      setCurrentCardIndex(storedIndex);
+    }
+  }, [cards]);
+
+  useEffect(() => {
+    localStorage.setItem("currentCardIndex", currentCardIndex.toString());
+  }, [currentCardIndex]);
 
   const handleNextClick = () => {
     if (currentCardIndex < cards.length - 1) {
