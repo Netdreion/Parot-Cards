@@ -46,7 +46,7 @@ const Card = ({ cards }) => {
                     </div>
                     <div>{cards[currentCardIndex].description}</div>
                     {currentCardIndex < cards.length - 1 && (
-                      <button onClick={handleNextClick}>NEXT</button>
+                      <button onClick={handleNextClick}>NEXT-Btn</button>
                     )}
                   </div>
                 </div>
