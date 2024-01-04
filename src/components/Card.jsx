@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const Card = ({ cards }) => {
   const [currentCardIndex, setCurrentCardIndex] = useState(0);
+  const [showCards, setShowCards] = useState(false);
 
   useEffect(() => {
     const storedIndex = Number(localStorage.getItem("currentCardIndex"));
@@ -22,8 +23,11 @@ const Card = ({ cards }) => {
 
   return (
     <div>
+      <button onClick={() => setShowCards(!showCards)}>
+        {!showCards && cards.length >= 3 ? "Rewiel Cards" : ""}
+      </button>
       <div className="display-container">
-        {currentCardIndex < cards.length && (
+        {showCards && currentCardIndex < cards.length && (
           <ul>
             <li>
               <div className="card-container">

@@ -7,6 +7,7 @@ import CardsData from "./CardsData";
 const RenderPage = () => {
   const [data, setData] = useState(CardsData);
   const [cards, setCards] = useState([]);
+  const [showCards, setShowCards] = useState(false);
 
   const shuffleData = (data) => {
     const shuffledData = [...data];
@@ -37,7 +38,12 @@ const RenderPage = () => {
   return (
     <div>
       <Deck handleCardClick={handleCardClick} data={shuffledData} />
-      <Card cards={cards} />
+
+      <div>
+        {" "}
+        <Card cards={cards} />
+      </div>
+
       <button onClick={newStart}>
         {cards.length > 2 ? "New Reading" : "Pick 3 card above"}
       </button>
